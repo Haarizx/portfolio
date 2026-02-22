@@ -1,0 +1,379 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HAARIZX | Cinematic Developer Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Syne:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body data-theme="dark-luxury">
+  <div class="ambient" aria-hidden="true">
+    <div class="gradient-field"></div>
+    <div class="orb orb-gold" data-depth="0.08" data-scroll-depth="0.015"></div>
+    <div class="orb orb-violet" data-depth="0.06" data-scroll-depth="0.012"></div>
+    <div class="orb orb-cyan" data-depth="0.07" data-scroll-depth="0.018"></div>
+    <div class="parallax-ribbon ribbon-a" data-depth="0.15" data-scroll-depth="0.02"></div>
+    <div class="parallax-ribbon ribbon-b" data-depth="0.11" data-scroll-depth="0.015"></div>
+    <div class="parallax-ribbon ribbon-c" data-depth="0.2" data-scroll-depth="0.01"></div>
+    <div class="grain"></div>
+    <canvas id="dust-canvas"></canvas>
+  </div>
+
+  <header class="topbar glass">
+    <a class="brand" href="#hero">HAARIZX</a>
+    <nav class="menu">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#prompt-engineering">Prompt Engineering</a>
+      <a href="#conversation">Conversation</a>
+    </nav>
+  </header>
+
+  <main class="content">
+    <section id="hero" class="section hero reveal">
+      <div class="hero-content">
+        <p class="hero-kicker reveal-item">Cinematic Developer Portfolio</p>
+        <h1 class="hero-title reveal-item">HAARIZX</h1>
+        <h2 class="hero-subtitle reveal-item">Aspiring Software Engineer</h2>
+        <p class="hero-lead reveal-item">
+          Building visually rich, intentional digital experiences
+        </p>
+        <div class="hero-actions reveal-item">
+          <a class="btn btn-primary" href="#projects">View Projects</a>
+          <a class="btn btn-ghost" href="#conversation">Start a Conversation</a>
+        </div>
+      </div>
+      <div class="hero-visual reveal-item" data-depth="0.13" data-scroll-depth="0.03">
+        <div class="visual-core"></div>
+        <div class="visual-ring ring-1"></div>
+        <div class="visual-ring ring-2"></div>
+        <div class="visual-ring ring-3"></div>
+        <div class="visual-flare"></div>
+      </div>
+    </section>
+
+    <section id="about" class="section reveal">
+      <div class="section-heading reveal-item">
+        <p class="label">About</p>
+        <h3>Precision, Atmosphere, and Intentional Craft</h3>
+      </div>
+      <div class="about-grid">
+        <article class="about-text glass reveal-item">
+          <p>
+            I design interfaces that feel deliberate, layered, and emotionally
+            resonant. My work prioritizes visual hierarchy, cinematic motion,
+            and clean front-end execution.
+          </p>
+          <p>
+            I am currently focused on building premium portfolio experiences,
+            sharpening JavaScript fundamentals, and learning prompt engineering
+            with a structured, high-precision mindset.
+          </p>
+        </article>
+        <div class="about-panels">
+          <article class="floating-panel glass reveal-item">
+            <h4>Design Direction</h4>
+            <p>Luxury visual language, restrained glow, and deep cinematic atmosphere.</p>
+          </article>
+          <article class="floating-panel glass reveal-item">
+            <h4>Development Approach</h4>
+            <p>Responsive architecture, semantic structure, and smooth interaction design.</p>
+          </article>
+          <article class="floating-panel glass reveal-item">
+            <h4>Current Focus</h4>
+            <p>Transforming ideas into polished front-end experiences that feel elite.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section reveal">
+      <div class="section-heading reveal-item">
+        <p class="label">Skills</p>
+        <h3>Foundation With Refined Visual Intent</h3>
+      </div>
+      <div class="skill-grid">
+        <article class="skill-card glass reveal-item">
+          <div class="skill-icon">H5</div>
+          <h4>HTML5</h4>
+          <p>Semantic structure and clean information architecture.</p>
+        </article>
+        <article class="skill-card glass reveal-item">
+          <div class="skill-icon">C3</div>
+          <h4>CSS3</h4>
+          <p>Advanced layouts, visual systems, and layered motion design.</p>
+        </article>
+        <article class="skill-card glass reveal-item">
+          <div class="skill-icon">JS</div>
+          <h4>JavaScript (Basics)</h4>
+          <p>Interaction logic, animation orchestration, and UI behavior.</p>
+        </article>
+        <article class="skill-card glass reveal-item">
+          <div class="skill-icon">RD</div>
+          <h4>Responsive Design</h4>
+          <p>Consistent luxury presentation across mobile and desktop.</p>
+        </article>
+        <article class="skill-card glass reveal-item">
+          <div class="skill-icon">PE</div>
+          <h4>Prompt Engineering (Learning)</h4>
+          <p>Structured prompts for clarity, control, and repeatable outcomes.</p>
+        </article>
+        <article class="skill-card glass reveal-item">
+          <div class="skill-icon">VC</div>
+          <h4>Vibe Coder</h4>
+          <p>Fast, intuitive prototyping with cinematic UI direction and creative flow.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="projects" class="section reveal">
+      <div class="section-heading reveal-item">
+        <p class="label">Projects</p>
+        <h3>Cinematic Work With High-Intent Interaction</h3>
+      </div>
+      <div class="project-list">
+        <article class="project-card glass reveal-item">
+          <div class="project-media media-portfolio">
+            <img
+              class="project-preview-image"
+              src="assets/projects/personal-portfolio-preview.svg"
+              alt="Preview of the Personal Portfolio Website project interface"
+              loading="lazy"
+            >
+            <div class="scanline"></div>
+          </div>
+          <div class="project-body">
+            <h4>Personal Portfolio Website</h4>
+            <p>
+              A premium personal site with layered gradients, depth-driven transitions,
+              and visual storytelling centered on craft.
+            </p>
+            <ul class="project-tags">
+              <li>Luxury UI</li>
+              <li>Motion System</li>
+              <li>Responsive Build</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="project-card glass reveal-item">
+          <div class="project-media media-js">
+            <img
+              class="project-preview-image"
+              src="assets/projects/javascript-practice-preview.svg"
+              alt="Preview of the JavaScript Practice App interface"
+              loading="lazy"
+            >
+            <div class="scanline"></div>
+          </div>
+          <div class="project-body">
+            <h4>JavaScript Practice App</h4>
+            <p>
+              A focused learning project exploring interaction states, smooth
+              transitions, and maintainable front-end behavior patterns.
+            </p>
+            <ul class="project-tags">
+              <li>State Handling</li>
+              <li>UI Logic</li>
+              <li>Clean Structure</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="project-card glass reveal-item">
+          <div class="project-media media-ui">
+            <img
+              class="project-preview-image"
+              src="assets/projects/ui-interaction-preview.svg"
+              alt="Preview of the UI Interaction Experiments project interface"
+              loading="lazy"
+            >
+            <div class="scanline"></div>
+          </div>
+          <div class="project-body">
+            <h4>UI Interaction Experiments</h4>
+            <p>
+              Explorations in hover choreography, cinematic reveal patterns,
+              and immersive scroll behavior tuned for elegance.
+            </p>
+            <ul class="project-tags">
+              <li>Micro-Transitions</li>
+              <li>Parallax Depth</li>
+              <li>Cinematic Scroll</li>
+            </ul>
+          </div>
+        </article>
+
+        <article
+          class="project-card glass reveal-item"
+          data-card-link="https://devbyhaarizxeduflow.base44.app/"
+          tabindex="0"
+          role="link"
+          aria-label="Open EduFlow project website"
+        >
+          <div class="project-media media-eduflow">
+            <img
+              class="project-preview-image"
+              src="assets/projects/eduflow-preview.svg"
+              alt="Preview of EduFlow smart college management system interface"
+              loading="lazy"
+            >
+            <div class="scanline"></div>
+          </div>
+          <div class="project-body">
+            <h4>EduFlow - Smart College Management System</h4>
+            <p>
+              An AI-integrated college automation platform that centralizes
+              attendance, marksheets, timetables, and analytics into a secure,
+              role-based system for students, faculty, and administrators.
+            </p>
+            <ul class="project-tags">
+              <li>AI INTEGRATION</li>
+              <li>ROLE-BASED SYSTEM</li>
+              <li>CAMPUS AUTOMATION</li>
+            </ul>
+          </div>
+        </article>
+
+        <article
+          class="project-card glass reveal-item"
+          data-card-link="https://agri-connecthaarizx.base44.app"
+          tabindex="0"
+          role="link"
+          aria-label="Open Agri Connect project website"
+        >
+          <div class="project-media media-agri">
+            <img
+              class="project-preview-image"
+              src="assets/projects/agri-connect-preview.svg"
+              alt="Preview of Agri Connect agricultural information platform interface"
+              loading="lazy"
+            >
+            <div class="scanline"></div>
+          </div>
+          <div class="project-body">
+            <h4>Agri Connect</h4>
+            <p>
+              A digital platform focused on improving information flow and
+              accessibility within the agricultural ecosystem, helping users
+              access data, resources, and updates through a structured and
+              easy-to-use interface.
+            </p>
+            <p class="project-focus-title">Key Focus:</p>
+            <ul class="project-focus-list">
+              <li>Centralized agricultural information</li>
+              <li>Resource and update accessibility</li>
+              <li>Simple, user-friendly workflows</li>
+            </ul>
+            <ul class="project-tags">
+              <li>AGRI-TECH</li>
+              <li>INFORMATION SYSTEM</li>
+              <li>RURAL CONNECTIVITY</li>
+            </ul>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="prompt-engineering" class="section reveal">
+      <div class="section-heading reveal-item">
+        <p class="label">Prompt Engineering</p>
+        <h3>Structured Thinking, Precision, and System Clarity</h3>
+      </div>
+      <div class="prompt-grid">
+        <article class="prompt-block glass reveal-item">
+          <h4>Intent Mapping</h4>
+          <p>Define goals, constraints, and tone before generating any output.</p>
+        </article>
+        <article class="prompt-block glass reveal-item">
+          <h4>Systematic Framing</h4>
+          <p>Use layered context to steer consistency and reduce ambiguity.</p>
+        </article>
+        <article class="prompt-block glass reveal-item">
+          <h4>Evaluation Loop</h4>
+          <p>Refine prompts through testing, comparison, and measurable quality checks.</p>
+        </article>
+      </div>
+      <article class="prompt-flow glass reveal-item">
+        <div class="flow-line"></div>
+        <h4>Precision Pipeline</h4>
+        <ol>
+          <li>Objective Definition</li>
+          <li>Constraint Encoding</li>
+          <li>Response Structure Control</li>
+          <li>Iteration and Refinement</li>
+        </ol>
+      </article>
+    </section>
+
+    <section id="theme-control" class="section reveal">
+      <div class="theme-control-card glass reveal-item">
+        <p class="label">Theme Studio</p>
+        <h3>Choose Your Viewing Mood</h3>
+        <p>
+          Switch between curated visual atmospheres while preserving the same
+          cinematic interaction flow.
+        </p>
+        <div class="theme-options" role="radiogroup" aria-label="Choose portfolio theme">
+          <button
+            class="theme-option"
+            type="button"
+            role="radio"
+            aria-checked="true"
+            data-theme-option="dark-luxury"
+          >
+            <span class="theme-swatch swatch-dark" aria-hidden="true"></span>
+            <span class="theme-option-text">Dark Luxury</span>
+          </button>
+          <button
+            class="theme-option"
+            type="button"
+            role="radio"
+            aria-checked="false"
+            data-theme-option="ivory-luxe"
+          >
+            <span class="theme-swatch swatch-ivory" aria-hidden="true"></span>
+            <span class="theme-option-text">Ivory Luxe</span>
+          </button>
+          <button
+            class="theme-option"
+            type="button"
+            role="radio"
+            aria-checked="false"
+            data-theme-option="ocean-noir"
+          >
+            <span class="theme-swatch swatch-ocean" aria-hidden="true"></span>
+            <span class="theme-option-text">Ocean Noir</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section id="conversation" class="section reveal">
+      <div class="conversation-card glass reveal-item">
+        <p class="label">Conversation</p>
+        <h3>Let&apos;s Build Something Distinct</h3>
+        <p>
+          If you want work that feels premium, modern, and intentional,
+          I am open to collaborations and growth-focused opportunities.
+        </p>
+        <div class="contact-lines">
+          <a href="mailto:mohamedhaarish2006@gmail.com">CONTACT VIA MAIL</a>
+          <a href="https://github.com/Haarizx" target="_blank" rel="noreferrer">GitHub</a>
+          <a href="https://www.linkedin.com/in/haarizx" target="_blank" rel="noreferrer">LinkedIn</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>Designed and developed by HAARIZX</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
